@@ -1,8 +1,0 @@
-imports-checks:
-  - folder: "pkg/$lib"
-    subpackages: true
-    rules:
-      - prefix: "github.com/quantumcycle/go-import-checks/validator/tests/reject/reject-another-package/"
-        reject:
-          - "internal"
-          - "internal/*"
